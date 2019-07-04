@@ -1,0 +1,406 @@
+body{
+	min-height: 200vh;
+}
+
+nav ul li a{
+   color: #4caf50;
+   font-family: "roboto", sans-serif;
+   font-weight: 600;
+   font-size: 1rem;
+   margin: 5px;
+}
+nav ul{
+   margin-right: 110px;
+}
+.editFrancisText{
+
+	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #000;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 1.5rem 0;
+}
+
+.editingClassSkillsFont{
+	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #000;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 1.5rem 0;
+    padding-top: 70px;
+}
+
+.editingClassProjectsFont{
+	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #000;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 1.5rem 0;
+    padding-top: 70px;
+}
+
+.editFullStackDeveloper{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    /*letter-spacing: 5px;*/
+    color: #4caf50;
+}
+
+.myOtherSkills{
+	 background-color: #4caf50;
+
+}
+.myOtherSkillsParagraph{
+	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #000;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 1.5rem 0;
+    padding-top: 30px;
+}
+
+.getInTouchWithMe{
+	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #000;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 1.5rem 0;
+    padding-top: 30px;
+}
+
+.editResumeButton{
+	width: 100%;
+	background-color: #4caf50 !important; 
+   font-family: "roboto", sans-serif;
+   font-weight: 600 ;
+   font-size: 1rem;
+   letter-spacing: -1px;
+}
+
+.editSendButton{
+	width: 100%;
+	background-color: #f9f9f9 !important; 
+    color: #4caf50;
+   font-family: "roboto", sans-serif;
+   font-weight: 600 ;
+   font-size: 1rem;
+   letter-spacing: -1px;
+}
+
+
+.nav-wrapper{
+	padding-top: 10px;
+	height: 100px !important;
+}
+
+.editJavaBackGroundImage{
+	padding-top: 100px;
+	/*margin-top: 40px;*/
+}
+
+.row .input-field input:focus {
+   border-bottom: 1px solid  #4caf50 !important;
+   box-shadow: 0 1px 0 0 #4caf50  !important
+ }
+.servicesParallax{
+	position:relative; 
+}
+
+
+.servicesParallax:after {
+    content:'\A';
+    position:absolute;
+    width:100%; 
+    height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.9);
+    opacity:0.6;
+    transition: all 0.8s;
+    -webkit-transition: all 0.5s;
+    background-repeat: no-repeat;
+
+}      
+/*.nav-fixed{
+	position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+}
+*/
+.logo{
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+/*.thin-text{
+	font-weight: 300;
+	background: rgba(96,125,139, .3);
+	padding: 40px;
+	border-radius: 10px;
+}*/
+
+.section-header{
+	font-weight: 300;
+}
+
+.editBtn{
+	border-radius: 20px;
+}
+
+/*.card{
+	width: 400;
+}*/
+
+/*.editSomeImagePbr{
+	height: 218px;
+}
+*/
+
+/*.pulse{
+	background-color: #4caf50 !important;
+}*/
+
+.editBtnInModal{
+	border-radius: 20px;
+	border: solid 1px  #eceff1;
+	font-weight: 300;
+}
+
+.editBtnInModal:hover{
+	background-color: #455a64;
+	border-color: #455a64; 
+
+}
+
+.editTextContact{
+	font-weight: 300;
+
+}
+
+ .input-field input:focus + label {
+   color: #455a64 !important;
+ }
+
+ .input-field input:focus {
+   border-bottom: 1px solid #43a047 !important;
+   /*box-shadow: 0 1px 0 0 #43a047 !important*/
+ }
+
+ .closeButtonEdit{
+ 	border-radius: 35px;
+ }
+
+ .sendButtonEdit{
+ 	border-radius: 35px;
+ }
+
+ #myProgress{
+ 	width: 100%;
+ 	background-color: #e0e0e0; 
+ }
+
+ #myBar{
+ 	width: 75%;
+ 	height: 30px;
+ 	background-color:#4caf50;
+ }
+
+ #idInHtmlBar{
+ 	width: 70%;
+ 	height: 30px;
+ 	background-color: #4caf50;
+ }
+
+#idInCssBar{
+	width: 70%;
+ 	height: 30px;
+ 	background-color: #4caf50;
+}
+
+#idInPhpMyBar{
+	width: 40%;
+	height: 30px;
+	background-color: #4caf50;
+}
+
+#idInjQueryMyBar{
+	width: 40%;
+	height: 30px;
+	background-color:#4caf50;
+}
+
+#IdInMyJSBar{
+	width: 40%;
+	height: 30px;
+	background-color:#4caf50;
+}
+
+#idInMyGit{
+	width: 65%;
+	height: 30px;
+	background-color:#4caf50;
+}
+
+
+
+.parallax-container img{
+	-webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+
+}
+
+/*
+#editMyJavaBar{
+	padding-right: 160px;
+	padding-left: 160px;
+}
+*/
+
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5) !important;
+
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+}
+
+
+
+.imgFacebook{
+	border-radius: 50%;
+  background-color: #757D75;
+	height: 48px;
+	width: 48px;
+	/*padding: 0 5px;*/
+	float: right;
+}
+
+i.icon-green {
+    color: #4caf50;
+}
+
+i.left{
+	color: #4caf50 !important; 
+}
+
+#mobile-demo li a{
+   font-family: "roboto", sans-serif;
+   font-weight: 500;
+   font-size: 1rem;
+   margin: 5px;
+}
+
+
+.imgLinkedin{
+	 
+	background-color: #757D75;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	float: left;
+}
+
+
+.imgLinkedin:hover{
+	/*opacity: 0.6;*/
+  background-color:#0a51a8;
+}
+
+.imgFacebook:hover{
+	/*opacity: 0.6;*/
+  background-color:#0564ff;
+}
+
+
+.image{
+	position:relative; 
+}
+
+
+.image:after {
+    content:'\A';
+    position:absolute;
+    width:100%; 
+    height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.9);
+    opacity:1;
+    transition: all 0.8s;
+    -webkit-transition: all 0.5s;
+    background-repeat: no-repeat;
+
+}
+.editColor{
+	padding-top: 70px;
+	padding-bottom:5px;
+}
+.editHrisProject{
+	background-color: #4caf50;
+}
+
+.editPBRProject{
+	background-color: #4caf50;
+}
+
+.editIconsInFollowMe{
+	padding-top: 40px;
+}
+
+.editContactInformation{
+	padding-top: 30px;
+}
+
+.editInAddress{
+	padding-top: 30px;
+}
+
+.editFooterBackGround{
+	background: #f9f9f9;
+    border-top: 0px solid #ececec;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.editFooterBackGround h5{
+   color: #4caf50;
+   font-family: "roboto", sans-serif;
+   font-weight: 600;
+   margin: 5px;
+}
+
+.editFooterBackGround p{
+   font-family: "roboto", sans-serif;
+   font-weight: 500;
+   font-size: 1rem;
+   margin: 5px;
+}
+
+.editingContainerInSideNav{
+	padding-top: 50px;
+}
+
+.EditingRowInOtherSkills{
+  padding-bottom: 55px;
+}
+
+input, input[placeholder]{
+    text-align:center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .nav-wrapper{
+    padding-top: 5px;
+    height: 70px !important;
+  }
+}
